@@ -1,0 +1,7 @@
+#sidebarProducts {
+    width: 205px;
+    float: right;
+    position: fixed;
+    top: 80px;
+    right: 0px;
+}

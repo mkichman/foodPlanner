@@ -1,0 +1,68 @@
+/*#sidebarProducts {*/
+/*    position: fixed;*/
+/*    top: 80px;*/
+/*    right: 0;*/
+/*    !*width: 210px;*!*/
+/*}*/
+
+#sidebarRightIcon {
+    width: 33px;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+}
+
+/*#sidebarRightIcon:hover {*/
+/*    transform: rotate(180deg);*/
+/*}*/
+/*#rightSidebarChevronWrapper:focus {*/
+/*    right: 190px;*/
+/*}*/
+
+#rightSidebar {
+    min-height: 70%;
+    position: fixed;
+    width: 330px;
+    right: 0;
+    z-index: 0;
+}
+
+#rightSidebarChevronWrapper {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: rgba(179, 179, 179, 0.4);
+    position: fixed;
+    right: 0;
+    z-index: 2;
+    border-radius: 10px 0 0 10px;
+}
+
+#addRecipeBtn {
+    position: absolute;
+    right: 470px;
+}
+
+@media only screen
+and (device-width : 414px)
+and (device-height : 896px)
+and (-webkit-device-pixel-ratio : 2) {
+    #addRecipeBtn {
+        right: 100px;
+    }
+
+}
+
+#responseBox {
+    min-width: 200px;
+    min-height: 50px;
+    background-color: rgba(57, 177, 27, 0.1);
+    color: rgba(63, 113, 51, 1);
+    position: fixed;
+    z-index: 1;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    padding: 20px;
+}
